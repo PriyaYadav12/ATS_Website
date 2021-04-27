@@ -1,0 +1,300 @@
+/* Tag */
+html,body{
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+
+}
+h2{
+  text-align: center;
+}
+
+h4{
+  color: #fff;
+}
+
+
+
+/* ID*/
+/* Navigation */
+#Navigation{
+  background-color: #11698e;
+  margin:0;
+
+
+}
+
+/* title */
+#title{
+  padding: 7% 10%;
+}
+
+/* feature */
+#features{
+  margin:0;
+  background-color: #f4eeed;
+  padding: 3% 3%;
+}
+
+/* plans */
+#plan{
+  margin:0;
+
+  background-color: #487e95;
+  padding:0 0 3%;
+}
+
+/* track session*/
+#track-service{
+  text-align: center;
+  background-color: #fff;
+  padding: 6% 5%;
+
+}
+/* promise */
+#promise{
+  background-color: #487e95;
+  text-align: center;
+}
+/* about us*/
+#about-us{
+  background-color: #fff;
+  text-align: justify;
+}
+
+/*footer*/
+#footer{
+  background-color: #487e95;
+}
+/* class*/
+
+/* Navigation */
+
+.logo{
+  text-align: center;
+  margin: 0.188rem 1.25rem 0.188rem 6.25rem;
+  display: block;
+  width: 6rem;
+  height: 4rem;
+
+}
+
+.nav-link{
+  text-align:center;
+  padding:0 0.25rem;
+  margin-right: 0.625rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+
+}
+.ul-main{
+  margin-left: 27rem;
+}
+/* title */
+.title-tile{
+  text-align: center;
+}
+
+.title-img{
+  margin:10% 10%;
+  color: #487e95;
+  padding-bottom:5%;
+  padding-right:4%;
+}
+.fa-phone-volume{
+  transform: rotate(-30deg);
+}
+
+.title-para{
+  color: #8f8f8f;
+  padding-bottom:5%;
+  padding-right:4%;
+  font-size: 1.2rem;
+}
+
+/* Features */
+.feature-heading{
+  color:#fff;
+  margin-bottom: 3%;
+  font-size: 2rem;
+}
+
+.feature-box{
+  text-align: center;
+  font-size: 1.1rem;
+}
+.feature-icon{
+  color:#487e95;
+  padding-bottom:0.125rem;
+}
+
+/* Plans */
+.plan-heading{
+  margin-bottom: 3%;
+  padding-top: 2%;
+  color:#fff;
+  font-size: 2rem;
+
+}
+.card{
+  width: 20rem;
+  height:30rem;
+  position-relative;
+
+
+}
+.service-card{
+  left:50%;
+}
+.card-header,.card-footer{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  height:6rem;
+  width: 20rem;
+}
+
+.plan-list{
+  padding-bottom: 0.25rem;
+  font-size: 1rem;
+}
+.starting{
+  font-style: italic;
+  font-size: 1rem;
+  text-align: center;
+}
+.price{
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  color:#487e95;
+}
+
+/* track session */
+.track-heading{
+  font-weight: bold;
+  color: #487e95;
+  margin-bottom: 4%;
+}
+.track-card{
+  padding: 9% 0;
+  position:relative;
+  left:40%;
+  background-color: #f4eeed;
+  width:22%;
+  height:10%;
+
+}
+.form-controls{
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.063rem solid;
+  box-shadow: none;
+  color: #333;
+
+}
+
+.orText{
+  padding: 0.625rem 0;
+  color: #333;
+  font-weight:bold;
+}
+
+.track-btn{
+  margin-top: 10%;
+  width: 75%;
+  height:5%;
+
+}
+
+
+/*promise*/
+.promise-heading{
+  padding: 2% 0;
+  color:#fff;
+  font-size: 2rem;
+
+}
+.circle{
+  height: 5rem;
+  width: 5rem;
+  background-color: #ffcc29;
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 5%;
+  margin: 5% 0;
+}
+
+.promise-content{
+  padding-bottom: 5%;
+  font-size: 1.5rem;
+}
+
+
+/* about us */
+.about-main{
+  padding:5% 10%;
+}
+
+.about-text{
+  color:#487e95;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.about-img{
+  width: 80%;
+  height:80%;
+  position: relative;
+  left:10%;
+}
+.about-content{
+  font-size: 1.1rem;
+}
+
+/*footer */
+.footer-main{
+  padding: 3% 0;
+}
+.social{
+  position: relative;
+  left: 20rem;
+  text-decoration:none;
+  font-size: 1.5rem;
+}
+.footer-img{
+  padding-right:2rem;
+  font-size: 1.5rem;
+  margin-top: 1%;
+}
+
+
+/* Media Query */
+@media only screen and (max-width: 1000px){
+  .service-card{
+    position: relative;
+    left:0;
+    margin-bottom: 0.625rem;
+  }
+
+  .social{
+    left: 4rem;
+}
+@media only screen and (max-width: 800px){
+  .about-img{
+    width: 90%;
+    height:40%;
+    margin-top: 3.75rem;
+  }
+  .nav-link{
+    text-align:left;
+    padding:0.025rem 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .ul-main{
+    margin-left: 0;
+  }
+}
