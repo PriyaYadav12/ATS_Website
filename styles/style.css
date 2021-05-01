@@ -11,6 +11,20 @@ html,body{
 h2{
   text-align: center;
 }
+h3{
+  display: inline;
+  color: #333;
+  position: relative;
+  top: 3rem;
+  font-size: 3rem;
+}
+p{
+  display: inline;
+  color: #42413f;
+  position: relative;
+  top: 3rem;
+  font-size: 1.5rem;
+}
 
 h4{
   color: #fff;
@@ -30,6 +44,8 @@ h4{
 /* title */
 #title{
   padding: 7% 10%;
+    background-color: #fff;
+
 }
 
 /* feature */
@@ -85,13 +101,15 @@ h4{
 .nav-link{
   text-align:center;
   padding:0 0.25rem;
-  margin-right: 0.625rem;
+  margin-right: 0.6rem;
   font-weight: bold;
   font-size: 1.2rem;
 
 }
+
+
 .ul-main{
-  margin-left: 27rem;
+  margin-left: 25rem;
 }
 /* title */
 .title-tile{
@@ -115,6 +133,52 @@ h4{
   font-size: 1.2rem;
 }
 
+
+.title-offer-img1,.title-offer-img2{
+  width: 25rem;
+  height: 15rem;
+  float: right;
+  margin-top: 0;
+  position: relative;
+  bottom:3rem;
+}
+.title-offer-img3,.title-offer-img4{
+  width: 30rem;
+  height: 15rem;
+  float: right;
+  margin-top: 0;
+  position: relative;
+  bottom:2rem;
+}
+
+
+
+.title-offer{
+  width: 90rem;
+  height: 20rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.offer-tab1{
+  background-color:#7fcb4a ;
+}
+.offer-tab2{
+  background-color:#bbddf5 ;
+}
+.offer-tab3{
+  background-color:#e0f0f5 ;
+}
+.offer-tab4{
+  background-color:#edc29c ;
+}
+
+.title-btn{
+  position: relative;
+  top:5rem;
+  left:2rem;
+}
+
+
 /* Features */
 .feature-heading{
   color:#fff;
@@ -125,10 +189,12 @@ h4{
 .feature-box{
   text-align: center;
   font-size: 1.1rem;
+
 }
 .feature-icon{
   color:#487e95;
   padding-bottom:0.125rem;
+
 }
 
 /* Plans */
@@ -296,5 +362,37 @@ h4{
   }
   .ul-main{
     margin-left: 0;
+  }
+  h3{
+    display: inline;
+    color: #333;
+    position: relative;
+    top: 1rem;
+    font-size: 1.5rem;
+  }
+  p{
+    display: inline;
+    color: #42413f;
+    position: relative;
+    top: 1rem;
+    font-size: 1rem;
+  }
+  .title-offer{
+    width: 90rem;
+    height: 20rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .title-offer-img1,.title-offer-img2,.title-offer-img3,.title-offer-img4{
+    visibility: hidden;
+  }
+
+  .title-btn{
+    position: relative;
+    top:2rem;
+    left:1rem;
+    width: 14rem;
+    height: 3rem;
   }
 }
