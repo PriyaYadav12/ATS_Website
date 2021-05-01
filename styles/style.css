@@ -193,7 +193,9 @@ h4{
 }
 .feature-icon{
   color:#487e95;
-  padding-bottom:0.125rem;
+  padding-bottom:2rem;
+  position: relative;
+  left:5rem;
 
 }
 
@@ -207,14 +209,14 @@ h4{
 }
 .card{
   width: 20rem;
-  height:30rem;
-  position-relative;
-
+  height:40rem;
 
 }
-.service-card{
+/* .service-card{
+  position: relative;
   left:50%;
-}
+} */
+
 .card-header,.card-footer{
   text-align: center;
   font-weight: bold;
@@ -231,6 +233,7 @@ h4{
   font-style: italic;
   font-size: 1rem;
   text-align: center;
+
 }
 .price{
   font-weight: bold;
@@ -395,4 +398,5 @@ h4{
     width: 14rem;
     height: 3rem;
   }
+
 }
