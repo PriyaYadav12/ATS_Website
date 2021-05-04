@@ -15,7 +15,7 @@ else{
    value(?, ?, ?, ?, ?, ?)");
   $stmt -> bind_param("ssiiss", $name, $email, $phone, $altnumber, $address, $type);
   $stmt -> execute();
-  echo "Booking successful...";
+  header('Location:index.html');
   $stmt -> close();
   
 }
